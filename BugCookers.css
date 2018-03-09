@@ -1,0 +1,283 @@
+body{
+  background: url("Pic/fond.jpg")  fixed no-repeat 10% 40% ;
+  background-size: cover;
+  }
+.logo1{
+  margin:20px;
+  margin-right: 40px;
+}
+.card-block {
+  margin:20px;
+}
+.content {
+    padding-top: 30px;
+}
+.testi{
+  margin: auto;
+}
+/* Testimonials */
+.carousel-info {
+  text-align:center;
+}
+blockquote p {
+  text-align: center;
+}
+.testimonials blockquote {
+    background: grey;
+    border: medium none;
+    color: black;
+    display: block;
+    font-size: 26px;
+    line-height: 30px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.testimonials .carousel-info img {
+    border: 1px solid black;
+    border-radius: 150px !important;
+    height: 90px;
+    padding: 3px;
+    width: 90px;
+}
+
+.testimonials .carousel-info img {
+    margin-right: 15px;
+
+}
+.testimonials .carousel-info span {
+    display: block;
+}
+.testimonials span.testimonials-name {
+    color: #e6400c;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 23px 0 7px;
+}
+.testimonials span.testimonials-post {
+    color: black;
+    font-size: 12px;
+}
+
+.NotreMenu {
+  background-color: black;
+}
+
+.Carte {
+  text-align: center;
+  font-size: 180px;
+  font-style: italic;
+  color: white;
+  text-decoration: underline white;
+  line-height: 1.5;
+  margin-bottom: 150px;
+}
+
+.Plats {
+  color: white;
+  font-size: 30px;
+  line-height: 3;
+}
+
+.plat {
+  color: white;
+  font-size: 20px;
+}
+
+.space-30 {
+  border-bottom:solid white 2px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.space-50 {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 450px;
+    margin-top: 40px;
+}
+
+.img1 {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 260px;
+    margin-left: 80px;
+}
+
+.title-1 {
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+  color: white;
+  text-decoration: underline white;
+  line-height: 1.5;
+  margin-bottom: 150px;
+}
+
+.navListVertical{
+  line-height: 100px;
+  text-align: center;
+}
+
+.card-img-top1{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
+  margin-top: 60px;
+}
+
+.card-img-top2{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 250px;
+  margin-left: 60px;
+}
+
+.card-img-top3{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 320px;
+  margin-top: 60px;
+}
+
+.Nomderesto {
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.spécialité {
+  color: white;
+  text-align: center;
+}
+
+.Bio {
+  color: white;
+  text-align: center;
+  text-decoration: underline white;
+}
+/* CSS de Alexandre*/
+#form_name {
+  width: 170px;
+}
+#form_lastname {
+  width: 170px;
+}
+#form_email {
+  max-width: 420px;
+  min-width: 90px;
+
+}
+#form_message{
+  max-width: 440px;
+  min-width: 90px;
+}
+#map{
+  width: 620;
+  height: 380;
+}
+footer{
+  background-color: lightblue;
+  margin-top: 40px;
+}
+.contactSection{
+  margin-top: 180px;
+}
+
+
+.input-icon-wrap {
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+}
+
+.input-icon {
+  background: #ddd;
+}
+
+.form-control {
+  border: none;
+  flex: 1;
+}
+
+.input-icon, .input-with-icon {
+  padding: 8px;
+}
+
+//commentaires David
+
+.bordureNoir{ border: 1px solid White; background-color: Black; min-height:10vmin; max-width:90px;}
+.bordureOrange{ border: 1px solid White; background-color: Orange; min-height:10vmin; max-width:90px;}
+
+.bordureGris{ border: 1px solid black; background-color: Grey; ;}
+.bordureBlanche{ border: 1px solid White; background-color: White; min-height:10vmin; max-width:90px;}
+.imageFond {
+  background-image:url(http://via.placeholder.com/250x250);
+  background-repeat: no-repeat;
+  height: 500px;
+
+}
+
+
+.slogan
+{
+
+  position:relative;
+  top: 200px;
+
+
+
+}
+
+h1
+{
+  position:;
+  top: 50px;
+  text-align: center;
+
+}
+
+.image4 {
+  background-image:url(http://via.placeholder.com/250x250);
+  background-repeat: no-repeat;
+
+}
+
+.image2 {
+  background-image:url(http://via.placeholder.com/250x250);
+  background-repeat: no-repeat;
+  height: 250px;}
+
+}
+
+.image3 {
+  background-image:url(http://via.placeholder.com/250x250);
+  background-repeat: no-repeat;
+  height: 250px;}
+
+}
+
+// Class
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Usage as a mixin
+.element {
+  .center-block();
