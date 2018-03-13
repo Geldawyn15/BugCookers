@@ -242,30 +242,54 @@ blockquote p {
 #form_name {
   width: 170px;
 }
+
 #form_lastname {
   width: 170px;
 }
+
 #form_email {
   max-width: 420px;
   min-width: 90px;
-
 }
-#form_message{
+
+#form_message {
   max-width: 440px;
   min-width: 90px;
 }
-#map{
-  width: 620;
-  height: 380;
+
+#map {
+  max-width: 520;
+  min-width: 280;
+  max-height: 480;
+  min-height: 280;
 }
-footer{
+
+
+.containerSmall2{
+  width: 500px;
+  height: 500px;
+}
+
+.contactTitle {
+  position: absolute;
+  top: 115px;
+  left: 30px;
+  font-size: 50px;
+}
+
+.partnersTitle{
+text-align: center;
+font-size: 50px;
+}
+
+footer {
   background-color: lightblue;
   margin-top: 40px;
 }
-.contactSection{
+
+.contactSection {
   margin-top: 180px;
 }
-
 
 .input-icon-wrap {
   border: 1px solid #ddd;
@@ -276,6 +300,7 @@ footer{
 
 .input-icon {
   background: #ddd;
+  border-radius: 4px;
 }
 
 .form-control {
@@ -286,7 +311,6 @@ footer{
 .input-icon, .input-with-icon {
   padding: 8px;
 }
-
 /*commentaires David */
 
 .bordureNoir{ border: 1px solid White; background-color: Black; min-height:10vmin; max-width:90px;}
