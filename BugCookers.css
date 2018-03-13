@@ -29,7 +29,7 @@
   font-size: 18px; /
 }
 
-
+/
 
 body{
   background: url("https://i.imgur.com/xdZuJrE.jpg")  fixed no-repeat 10% 40% ;
@@ -297,6 +297,14 @@ footer {
 
   position:relative;
   top: 200px;
+}
+
+h1
+{
+  position:;
+  top: 50px;
+  text-align: center;
+
 }
 
 .image4 {
