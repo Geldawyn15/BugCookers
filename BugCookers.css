@@ -1,29 +1,96 @@
+/* Bouton back to top */
+.scroll-top {
+  width: 75px;
+  height: 75px;
+  position: fixed;
+  bottom: 25px;
+  left: 20px;
+  display: none;
+  z-index: 200;
+}
+
+.scroll-top i {
+  display: inline-block;
+  color: #fff;
+}
+
+#scrollUp {
+  position: fixed;
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /
+}
+
+/* Image accueil */
+ .full-width-image {
+  position: relative;
+  filter: grayscale(40%);
+}
+
+#titre {
+  background-color: rgba( 64, 236, 50, 0.5);
+  position: absolute;
+  right: 30%;
+  top:10%;
+  font-family: Lobster, cursive;
+  font-size: 120px;
+  color: black;
+}
+
+#soustitre{
+  background-color: rgba( 64, 236, 50, 0.5);
+  position: absolute;
+  top:40%;
+  right:30%;
+  font-family: Lobster, cursive;
+  font-size: 50px;
+  color: black;
+}
+
+#slogan {
+  background-color: rgba( 64, 236, 50, 0.5);
+  position: absolute;
+  top:80%;
+  right:30%;
+  font-family: Lobster, cursive;
+  font-size: 50px;
+  color: black;
+}
+
 body{
-  background: url("Pic/fond.jpg")  fixed no-repeat 10% 40% ;
+  background: url("https://i.imgur.com/xdZuJrE.jpg")  fixed no-repeat 10% 40% ;
   background-size: cover;
-  }
-.logo1{
-  margin:20px;
-  margin-right: 40px;
 }
-.card-block {
-  margin:20px;
-}
+
+
+/* Testimonials */
+
 .content {
     padding-top: 30px;
 }
 .testi{
   margin: auto;
+  background-color: rgba( 64, 236, 50, 0.5);
 }
-/* Testimonials */
+
 .carousel-info {
-  text-align:center;
+  text-align: center;
 }
+
 blockquote p {
   text-align: center;
 }
+
 .testimonials blockquote {
-    background: grey;
+    background: rgba( 183, 200, 182 , 0.9);
     border: medium none;
     color: black;
     display: block;
@@ -60,6 +127,8 @@ blockquote p {
     color: black;
     font-size: 12px;
 }
+
+/* css Martin */
 
 .NotreMenu {
   background-color: black;
@@ -218,7 +287,7 @@ footer{
   padding: 8px;
 }
 
-//commentaires David
+/*commentaires David */
 
 .bordureNoir{ border: 1px solid White; background-color: Black; min-height:10vmin; max-width:90px;}
 .bordureOrange{ border: 1px solid White; background-color: Orange; min-height:10vmin; max-width:90px;}
@@ -238,9 +307,6 @@ footer{
 
   position:relative;
   top: 200px;
-
-
-
 }
 
 h1
