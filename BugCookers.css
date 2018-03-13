@@ -237,7 +237,12 @@ blockquote p {
   height: 500px;
 }
 
-
+.contactTitle {
+  position: absolute;
+  top: 115px;
+  left: 30px;
+  font-size: 50px;
+}
 
 .partnersTitle{
 text-align: center;
