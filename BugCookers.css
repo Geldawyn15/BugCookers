@@ -29,7 +29,41 @@
   font-size: 18px; /
 }
 
-/
+/* Image accueil */
+ .full-width-image {
+  position: relative;
+  filter: grayscale(40%);
+}
+
+#titre {
+  background-color: rgba( 64, 236, 50, 0.5);
+  position: absolute;
+  right: 30%;
+  top:10%;
+  font-family: Lobster, cursive;
+  font-size: 120px;
+  color: black;
+}
+
+#soustitre{
+  background-color: rgba( 64, 236, 50, 0.5);
+  position: absolute;
+  top:40%;
+  right:30%;
+  font-family: Lobster, cursive;
+  font-size: 50px;
+  color: black;
+}
+
+#slogan {
+  background-color: rgba( 64, 236, 50, 0.5);
+  position: absolute;
+  top:80%;
+  right:30%;
+  font-family: Lobster, cursive;
+  font-size: 50px;
+  color: black;
+}
 
 body{
   background: url("https://i.imgur.com/xdZuJrE.jpg")  fixed no-repeat 10% 40% ;
