@@ -373,6 +373,30 @@ footer {
 }
 
 /* 3 bonnes raisons */
+.imageFondX{
+background-image: url(https://i.imgur.com/gQNsK7a.jpg?1);
+transition-property: background-image;
+transition-duration: 1s;
+transition-delay: 0.4s; /* Démarre au bout de 0,4s */
+width: 300px;
+height: 300px;
+border: 0.2em solid black;
+margin:auto;
+
+}
+
+
+.imageFondY{
+background-image: url(https://i.imgur.com/5DwVJD9.jpg?1);
+transition-property: background-image;
+transition-duration: 1s;
+transition-delay: 0.4s; /* Démarre au bout de 0,4s */
+width: 300px;
+height: 300px;
+border: 0.2em solid black;
+margin:auto;
+
+}
 
 .imageFondZ{
 background-image: url(https://i.imgur.com/zefytPL.jpg?1);
@@ -386,6 +410,12 @@ margin:auto;
 
 }
 
+
+
+/* Début Test hover
+
+
+
 .conteneur:hover .imageFondZ{
   background-color:black ;
   opacity:0.5;
@@ -396,6 +426,9 @@ margin:auto;
 .conteneur:hover .textecaché{
   visibility: visible;
 }
+
+*/
+
 
 .titreArgu {
   text-align: center;
@@ -443,5 +476,22 @@ margin:auto;
         display: none;
 
     }
+
+}
+
+
+/* Enlever le carroussel sur les petits écrans */
+.bgGris {
+
+  background-color: rgba( 153, 153, 153, 0.8);
+
+}
+
+/* Définition des polices */
+
+body {
+
+font-family: 'Lato', serif;
+
 
 }
