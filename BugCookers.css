@@ -1,7 +1,9 @@
 /* Bouton back to top */
-.navbar-dark{
+
+.navbar-dark {
   background-color: rgba(0, 0, 0, 0.8);
 }
+
 .scroll-top {
   width: 75px;
   height: 75px;
@@ -119,6 +121,7 @@ blockquote p {
 .NotreMenu {
   background-color: rgba(0, 0, 0, 0.8);
 }
+
 .carte {
   text-align: center;
   font-family: 'Great Vibes', cursive;
@@ -260,6 +263,10 @@ blockquote p {
   min-height: 280;
 }
 
+.partnerSection {
+  width: 100%;
+}
+
 .containerSmall2 {
   width: 500px;
   height: 500px;
@@ -267,8 +274,7 @@ blockquote p {
 
 .contactTitle {
   position: relative;
-  bottom: 150px;
-  left: 100px;
+  bottom: 70px;
   font-size: 50px;
 }
 
@@ -278,12 +284,12 @@ blockquote p {
 }
 
 footer {
-  background-color: lightblue;
+  background-color: #0F0F0F;
   margin-top: 40px;
 }
 
 .contactSection {
-  margin-top: 180px;
+  margin-top: 100px;
 }
 
 .input-icon-wrap {
@@ -305,6 +311,23 @@ footer {
 
 .input-icon, .input-with-icon {
   padding: 8px;
+}
+
+.ft-ic {
+  color: white;
+}
+
+.rgba-white-light {
+  color: white;
+}
+
+.legalTitle {
+  text-align: center;
+  font-size: 2.3em;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 1.2;
 }
 
 /*commentaires David */
@@ -378,88 +401,66 @@ footer {
 // Usage as a mixin
 .element {
   .center-block();
-
   /* Carroussel */
-
   .sloganCaroussel {
     font-size: 50px;
     font-family: 'Lato', serif;
-    color:black;
+    color: black;
     font-style: italic;
     font-weight: bold;
     background-color: rgba(255, 255, 255, 0.5);
   }
-
   .titreCaroussel {
     font-size: 100px;
     font-family: 'Ultra', serif;
   }
-
-
   .Cooker {
-    color:red;
+    color: red;
   }
-
   /* 3 bonnes raisons */
-
-  .imageFondZ{
-  background-image: url(https://i.imgur.com/zefytPL.jpg?1);
-  transition-property: background-image;
-  transition-duration: 1s;
-  transition-delay: 0.4s; /* Démarre au bout de 0,4s */
-  width: 300px;
-  height: 300px;
-  border: 0.2em solid black;
-
+  .imageFondZ {
+    background-image: url(https://i.imgur.com/zefytPL.jpg?1);
+    transition-property: background-image;
+    transition-duration: 1s;
+    transition-delay: 0.4s;
+    /* Démarre au bout de 0,4s */
+    width: 300px;
+    height: 300px;
+    border: 0.2em solid black;
   }
-
-  .conteneur:hover .imageFondZ{
-    background-color:black ;
-    opacity:0.5;
+  .conteneur:hover .imageFondZ {
+    background-color: black;
+    opacity: 0.5;
     width: 300px;
     height: 300px;
   }
-
-  .conteneur:hover .textecaché{
+  .conteneur:hover .textecaché {
     visibility: visible;
   }
-
   .titreArgu {
     text-align: center;
-
   }
-
-  .argu{
+  .argu {
     text-align: justify;
-    margin:auto;
+    margin: auto;
   }
-
-  .alignVertical{
-    display:flex;
+  .alignVertical {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
   }
-
   .textecache {
-    color:red;
+    color: red;
   }
-
   .imageDessus {
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     vertical-align: center;
   }
-
-
   /* Enlever le carroussel sur les petits écrans */
-  @media all and (max-width: 768px)
-
-  {
-
-#carouselExampleIndicators {
-
-          display: none;
-      }
+  @media all and (max-width: 768px) {
+    #carouselExampleIndicators {
+      display: none;
+    }
