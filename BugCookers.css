@@ -367,3 +367,88 @@ footer {
 // Usage as a mixin
 .element {
   .center-block();
+
+  /* Carroussel */
+
+  .sloganCaroussel {
+    font-size: 50px;
+    font-family: 'Lato', serif;
+    color:black;
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .titreCaroussel {
+    font-size: 100px;
+    font-family: 'Ultra', serif;
+  }
+
+
+  .Cooker {
+    color:red;
+  }
+
+  /* 3 bonnes raisons */
+
+  .imageFondZ{
+  background-image: url(https://raw.githubusercontent.com/pellecuer/wild-project/master/insectes3.jpg);
+  transition-property: background-image;
+  transition-duration: 1s;
+  transition-delay: 0.4s; /* Démarre au bout de 0,4s */
+  width: 300px;
+  height: 300px;
+  border: 0.2em solid black;
+
+  }
+
+  .conteneur:hover .imageFondZ{
+    background-color:black ;
+    opacity:0.5;
+    width: 300px;
+    height: 300px;
+  }
+
+  .conteneur:hover .textecaché{
+    visibility: visible;
+  }
+
+  .titreArgu {
+    text-align: center;
+
+  }
+
+  .argu{
+    text-align: justify;
+    margin:auto;
+  }
+
+  .alignVertical{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .textecache {
+    color:red;
+  }
+
+  .imageDessus {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: center;
+  }
+
+
+  /* Enlever le carroussel sur les petits écrans */
+  @media all and (max-width: 768px)
+
+  {
+
+#carouselExampleIndicators {
+
+          display: none;
+      }
