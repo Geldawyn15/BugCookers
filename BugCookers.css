@@ -1,4 +1,5 @@
 /* Bouton back to top */
+
 .scroll-top {
   width: 75px;
   height: 75px;
@@ -16,36 +17,44 @@
 
 #scrollUp {
   position: fixed;
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: red; /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: red;
+  /* Set a background color */
+  color: white;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 15px;
+  /* Some padding */
+  border-radius: 10px;
+  /* Rounded corners */
+  font-size: 18px;
+  /
 }
 
-
-
-
-body{
-  background: url("https://i.imgur.com/xdZuJrE.jpg")  fixed no-repeat 10% 40% ;
+body {
+  background: url("https://i.imgur.com/xdZuJrE.jpg") fixed no-repeat 10% 40%;
   background-size: cover;
 }
-
 
 /* Testimonials */
 
 .content {
-    padding-top: 30px;
+  padding-top: 30px;
 }
-.testi{
+
+.testi {
   margin: auto;
-  background-color: rgba( 153,153,153, 0.8);
+  background-color: rgba( 153, 153, 153, 0.8);
 }
 
 .carousel-info {
@@ -57,51 +66,55 @@ blockquote p {
 }
 
 .testimonials blockquote {
-    background: rgba(0,0,0, 0.9);
-    border: medium none;
-    color: white;
-    display: block;
-    font-size: 26px;
-    line-height: 30px;
-    padding: 15px;
-    margin: 15px;
-    border-radius: 30px;
-    position: relative;
+  background: rgba(0, 0, 0, 0.9);
+  border: medium none;
+  color: white;
+  display: block;
+  font-size: 26px;
+  line-height: 30px;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 30px;
+  position: relative;
 }
 
 .testimonials .carousel-info img {
-    border: 1px solid black;
-    border-radius: 150px !important;
-    height: 130px;
-    padding: 3px;
-    width: 130px;
-    margin-top: 15px;
+  border: 1px solid black;
+  border-radius: 150px !important;
+  height: 130px;
+  padding: 3px;
+  width: 130px;
+  margin-top: 15px;
 }
 
 .testimonials .carousel-info img {
-    margin-right: 15px;
-
+  margin-right: 15px;
 }
+
 .testimonials .carousel-info span {
-    display: block;
+  display: block;
 }
+
 .testimonials span.testimonials-name {
-    color: #e6400c;
-    font-size: 30px;
-    font-weight: 300;
-    margin: 23px 0 7px;
+  color: #e6400c;
+  font-size: 30px;
+  font-weight: 300;
+  margin: 23px 0 7px;
 }
+
 .testimonials span.testimonials-post {
-    color: black;
-    font-size: 18px;
+  color: black;
+  font-size: 18px;
 }
-.toto{
+
+.toto {
   background-color: red;
 }
+
 /* css Martin */
 
 .NotreMenu {
-  background-color: rgba(0,0,0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .Carte {
@@ -126,7 +139,7 @@ blockquote p {
 }
 
 .space-30 {
-  border-bottom:solid white 2px;
+  border-bottom: solid white 2px;
   margin-bottom: 30px;
   margin-top: 30px;
 }
@@ -137,19 +150,19 @@ blockquote p {
 }
 
 .img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 450px;
-    margin-top: 40px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 450px;
+  margin-top: 40px;
 }
 
 .img1 {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 260px;
-    margin-left: 80px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 260px;
+  margin-left: 80px;
 }
 
 .title-1 {
@@ -162,12 +175,12 @@ blockquote p {
   margin-bottom: 150px;
 }
 
-.navListVertical{
+.navListVertical {
   line-height: 100px;
   text-align: center;
 }
 
-.card-img-top1{
+.card-img-top1 {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
@@ -175,7 +188,7 @@ blockquote p {
   margin-top: 60px;
 }
 
-.card-img-top2{
+.card-img-top2 {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
@@ -183,7 +196,7 @@ blockquote p {
   margin-left: 60px;
 }
 
-.card-img-top3{
+.card-img-top3 {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
@@ -208,7 +221,9 @@ blockquote p {
   text-align: center;
   text-decoration: underline white;
 }
+
 /* CSS de Alexandre*/
+
 #form_name {
   width: 170px;
 }
@@ -234,22 +249,21 @@ blockquote p {
   min-height: 280;
 }
 
-
-.containerSmall2{
+.containerSmall2 {
   width: 500px;
   height: 500px;
 }
 
 .contactTitle {
-  position: absolute;
-  top: 115px;
-  left: 30px;
+  position: relative;
+  bottom: 150px;
+  left: 100px;
   font-size: 50px;
 }
 
-.partnersTitle{
-text-align: center;
-font-size: 50px;
+.partnersTitle {
+  text-align: center;
+  font-size: 50px;
 }
 
 footer {
@@ -281,48 +295,65 @@ footer {
 .input-icon, .input-with-icon {
   padding: 8px;
 }
+
 /*commentaires David */
 
-.bordureNoir{ border: 1px solid White; background-color: Black; min-height:10vmin; max-width:90px;}
-.bordureOrange{ border: 1px solid White; background-color: Orange; min-height:10vmin; max-width:90px;}
-
-.bordureGris{ border: 1px solid black; background-color: Grey; ;}
-.bordureBlanche{ border: 1px solid White; background-color: White; min-height:10vmin; max-width:90px;}
-.imageFond {
-  background-image:url(http://via.placeholder.com/250x250);
-  background-repeat: no-repeat;
-  height: 500px;
-
+.bordureNoir {
+  border: 1px solid White;
+  background-color: Black;
+  min-height: 10vmin;
+  max-width: 90px;
 }
 
+.bordureOrange {
+  border: 1px solid White;
+  background-color: Orange;
+  min-height: 10vmin;
+  max-width: 90px;
+}
 
-.slogan
-{
+.bordureGris {
+  border: 1px solid black;
+  background-color: Grey;
+  ;
+}
 
-  position:relative;
+.bordureBlanche {
+  border: 1px solid White;
+  background-color: White;
+  min-height: 10vmin;
+  max-width: 90px;
+}
+
+.imageFond {
+  background-image: url(http://via.placeholder.com/250x250);
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.slogan {
+  position: relative;
   top: 200px;
 }
 
-
-
 .image4 {
-  background-image:url(http://via.placeholder.com/250x250);
+  background-image: url(http://via.placeholder.com/250x250);
   background-repeat: no-repeat;
-
 }
 
 .image2 {
-  background-image:url(http://via.placeholder.com/250x250);
+  background-image: url(http://via.placeholder.com/250x250);
   background-repeat: no-repeat;
-  height: 250px;}
+  height: 250px;
+}
 
 }
 
-
 .image3 {
-  background-image:url(http://via.placeholder.com/250x250);
+  background-image: url(http://via.placeholder.com/250x250);
   background-repeat: no-repeat;
-  height: 250px;}
+  height: 250px;
+}
 
 }
 
