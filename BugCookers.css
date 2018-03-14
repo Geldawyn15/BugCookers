@@ -1,5 +1,7 @@
 /* Bouton back to top */
-
+.navbar-dark{
+  background-color: rgba(0, 0, 0, 0.8);
+}
 .scroll-top {
   width: 75px;
   height: 75px;
