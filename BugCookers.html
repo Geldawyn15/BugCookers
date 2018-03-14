@@ -1,240 +1,203 @@
-
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" , maximum-scale=1, user-scalable="no" charset="utf-8" />
-        <link rel="stylesheet" href="BugCookers.css"/>
-        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"/>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="scroll.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <link rel=”stylesheet” id=”font-awesome-css” src=”http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css” type=”text/css” media=”screen”>
-        <title>Bug Cooker</title>
-    </head>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" , maximum-scale=1, user-scalable="no" charset="utf-8" />
+  <link rel="stylesheet" href="BugCookers.css" />
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" />
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="scroll.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel=”stylesheet” id=”font-awesome-css” src=”http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css” type=”text/css” media=”screen”>
+  <title>Bug Cooker</title>
+</head>
 
 <header id="menu">
-    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark ">
-        <a class="navbar-brand" href="#"> {Débug Resto} </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark ">
+    <a class="navbar-brand" href="#"> {Débug Resto} </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-        <div class="collapse navbar-collapse nav-fill justify-content-center" id="navbarNav">
-            <ul class="navbar-nav justify-content-center">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#Accueil">Accueil <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Concept">Concept</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Menu">Menu</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#QuiSommesNous">Qui sommes nous</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#ContactNous">Nous contacter</a>
-                </li>
-            </ul>
-          </div>
-      </nav>
+    <div class="collapse navbar-collapse nav-fill justify-content-center" id="navbarNav">
+      <ul class="navbar-nav justify-content-center">
+        <li class="nav-item active">
+          <a class="nav-link" href="#Accueil">Accueil <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Concept">Concept</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Menu">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#QuiSommesNous">Qui sommes nous</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#ContactNous">Nous contacter</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 </header>
 
 <body>
 
 
-    <button class="btn btn-primary scroll-top" data-scroll="up" type="button">
+  <button class="btn btn-primary scroll-top" data-scroll="up" type="button">
     <i class="fa fa-chevron-up"></i>
     </button>
 
 
-       <div class="row"> <!-- exemple - ligne 4 -->
-            <!--exemple Bootstrap - -->
-            <div class="col-md-4">
-              <img class="rounded-circle border border-secondary" src="http://via.placeholder.com/250x250" alt="Generic placeholder image" width="140" height="140" >
-              <h2>Heading</h2>
-              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-              <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-            </div>
+  <div class="row">
+    <!-- exemple - ligne 4 -->
+    <!--exemple Bootstrap - -->
+    <div class="col-md-4">
+      <img class="rounded-circle border border-secondary" src="http://via.placeholder.com/250x250" alt="Generic placeholder image" width="140" height="140">
+      <h2>Heading</h2>
+      <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+      <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+    </div>
 
-            <div class="col-md-4">
-              <img class="rounded-circle border border-secondary" src="http://via.placeholder.com/250x250" alt="Generic placeholder image" width="140" height="140" >
-              <h2>Heading</h2>
-              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-              <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-            </div>
+    <div class="col-md-4">
+      <img class="rounded-circle border border-secondary" src="http://via.placeholder.com/250x250" alt="Generic placeholder image" width="140" height="140">
+      <h2>Heading</h2>
+      <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+      <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+    </div>
 
-            <div class="col-md-4">
-              <img class="rounded-circle border border-secondary" src="http://via.placeholder.com/250x250" alt="Generic placeholder image" width="140" height="140" >
-              <h2>Heading</h2>
-              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-              <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-            </div>
+    <div class="col-md-4">
+      <img class="rounded-circle border border-secondary" src="http://via.placeholder.com/250x250" alt="Generic placeholder image" width="140" height="140">
+      <h2>Heading</h2>
+      <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+      <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+    </div>
+  </div>
+
+
+  </section>
+  </section>
+  <section class="NotreMenu" id="Menu">
+    <div class="container">
+      <div class="Carte">
+        <div class="title-1">Notre Carte</div>
       </div>
 
-
-</section>
-<div class="container-fluid content">
-    <div class="row">
-        <div class="col-md-11 testi" id="Concept">
-            <div class="testimonials">
-                <div class="active item">
-                  <blockquote><p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
-                              </p></blockquote>
-                  <div class="carousel-info">
-                    <img alt="" src="https://i.imgur.com/0Xw1zbA.jpg" class="pull-left">
-                    <div class="pull-left">
-                      <span class="testimonials-name">Johnny l'asticot</span>
-                      <span class="testimonials-post">Père fondateur / Cuistot en chef</span>
-                    </div>
-                  </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    <div class="container-fluid content">
-        <div class="row">
-            <div class="col-md-11 testi">
-                <div class="testimonials">
-                    <div class="active item">
-                        <blockquote><p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
-                        </p></blockquote>
-                    <div class="carousel-info">
-                        <img alt="" src="https://i.imgur.com/V1uNqt9.jpg" class="pull-right">
-                          <div class="pull-left">
-                              <span class="testimonials-name">Jiminy Cricket</span>
-                                <span class="testimonials-post">Père fondateur / Responsable commercial</span>
-                          </div>
-                    </div>
-                  </div>
-                </div>
+      <div class="row">
+        <div class="col-xs-6">
+          <div>
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link" id="pills-entrée-tab" data-toggle="pill" href="#pills-entrée" role="tab" aria-controls="pills-entrée" aria-selected="true">Nos Entrées</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" id="pills-plat-tab" data-toggle="pill" href="#pills-plat" role="tab" aria-controls="pills-plat" aria-selected="false">Nos Plats</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-dessert-tab" data-toggle="pill" href="#pills-dessert" role="tab" aria-controls="pills-dessert" aria-selected="false">Nos Desserts</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade" id="pills-entrée" role="tabpanel" aria-labelledby="pills-entrée-tab">
+                <h2 class="Plats">Nos Entrées</h2>
+                <p class="plat">❍ Soupe aux oeufs de fourmi et au lait de coco 8€</p>
+                <p class="plat">❍ Salade de concombre aux grillons et vers de farine 8.50€</p>
+                <p class="plat">❍ Bouchées friandes et croquantes (farce aux insectes) 9€</p>
+                <p class="plat">❍ Salade de pomme de terre accompagnée de grillons 8.50€</p>
+              </div>
+              <div class="tab-pane fade show active" id="pills-plat" role="tabpanel" aria-labelledby="pills-plat-tab">
+                <h2 class="Plats">Nos Plats</h2>
+                <p class="plat">❍ Tarentules frites facon cambodgienne 14.5€</p>
+                <p class="plat">❍ Brochettes de cigales grillées 15€</p>
+                <p class="plat">❍ Sauterelles marinées 15€</p>
+                <p class="plat">❍ Sauce méditéranéenne aux grillons 16.5€</p>
+                <p class="plat">❍ Spécialité de chef 16€</p>
+              </div>
+              <div class="tab-pane fade" id="pills-dessert" role="tabpanel" aria-labelledby="pills-dessert-tab">
+                <h2 class="Plats">Nos Desserts</h2>
+                <p class="plat">❍ Grillons au chocolat et au gingembre 5.50€</p>
+                <p class="plat">❍ Cookies grillons et vers de farine 4.50€</p>
+                <p class="plat">❍ Gaufres croustillantes aux insectes 5€</p>
+                <p class="plat">❍ Sorbets aux insectes 4.50€</p>
               </div>
             </div>
           </div>
-    </section>
-<section class="NotreMenu"  id="Menu">
-  <div class="container">
-    <div class="Carte">
-      <div class="title-1">Notre Carte</div>
-    </div>
-
-    <div class="row">
-      <div class="col-xs-6">
-        <div>
-          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-            <li class="nav-item">
-              <a class="nav-link" id="pills-entrée-tab" data-toggle="pill" href="#pills-entrée" role="tab" aria-controls="pills-entrée" aria-selected="true">Nos Entrées</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" id="pills-plat-tab" data-toggle="pill" href="#pills-plat" role="tab" aria-controls="pills-plat" aria-selected="false">Nos Plats</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="pills-dessert-tab" data-toggle="pill" href="#pills-dessert" role="tab" aria-controls="pills-dessert" aria-selected="false">Nos Desserts</a>
-            </li>
-          </ul>
-          <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade" id="pills-entrée" role="tabpanel" aria-labelledby="pills-entrée-tab">
-              <h2 class="Plats">Nos Entrées</h2>
-              <p class="plat">❍ Soupe aux oeufs de fourmi et au lait de coco 8€</p>
-              <p class="plat">❍ Salade de concombre aux grillons et vers de farine 8.50€</p>
-              <p class="plat">❍ Bouchées friandes et croquantes (farce aux insectes) 9€</p>
-              <p class="plat">❍ Salade de pomme de terre accompagnée de grillons 8.50€</p>
-            </div>
-            <div class="tab-pane fade show active" id="pills-plat" role="tabpanel" aria-labelledby="pills-plat-tab">
-              <h2 class="Plats">Nos Plats</h2>
-              <p class="plat">❍ Tarentules frites facon cambodgienne 14.5€</p>
-              <p class="plat">❍ Brochettes de cigales grillées 15€</p>
-              <p class="plat">❍ Sauterelles marinées 15€</p>
-              <p class="plat">❍ Sauce méditéranéenne aux grillons 16.5€</p>
-              <p class="plat">❍ Spécialité de chef 16€</p>
-            </div>
-            <div class="tab-pane fade" id="pills-dessert" role="tabpanel" aria-labelledby="pills-dessert-tab">
-              <h2 class="Plats">Nos Desserts</h2>
-              <p class="plat">❍ Grillons au chocolat et au gingembre 5.50€</p>
-              <p class="plat">❍ Cookies grillons et vers de farine 4.50€</p>
-              <p class="plat">❍ Gaufres croustillantes aux insectes 5€</p>
-              <p class="plat">❍ Sorbets aux insectes 4.50€</p>
-            </div>
-          </div>
-        </div>
-        <div class="space-30"></div>
-        <div>
-          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-            <li class="nav-item">
-              <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Nos Accompagnements</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Nos Sauces</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Nos Boissons</a>
-            </li>
-          </ul>
-          <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-              <h2 class="Plats">Nos Accompagnements</h2>
-              <p class="plat">❍ Frites maison</p>
-              <p class="plat">❍ Assortiment de légumes</p>
-              <p class="plat">❍ Riz</p>
-              <p class="plat">❍ Salade</p>
-            </div>
-            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-              <h2 class="Plats">Nos Sauces</h2>
-              <p class="plat">❍ Satay</p>
-              <p class="plat">❍ Curry</p>
-              <p class="plat">❍ Poivre</p>
-              <p class="plat">❍ Miel soja</p>
-            </div>
-            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-              <h2 class="Plats">Nos Boissons</h2>
-              <p class="plat">❍ Soft 1.50€</p>
-              <p class="plat">❍ Vin 22€</p>
-              <p class="plat">❍ Bières 5.50€</p>
-              <p class="plat">❍ Cocktail Maison 8€</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-5 offset-1">
-        <div class="img">
-          <img src="https://i.imgur.com/wh8YsTg.jpg" alt="food" class="img-fluid">
-        </div>
-        <div class="space-50"></div>
-        <div class="img1">
-          <img src="https://i.imgur.com/apZvJxF.jpg" alt="food" class="img-fluid">
-        </div>
-      </div>
-    </div>
-    <div class="space-30"></div>
-    <div class="space-50"></div>
-    <div class="text-center">
-      <h1 class="title-1">Nos Spécialités</h1>
-    </div>
-    <div class="row">
-      <div class="col-md-2">
-        <div class="navListVertical">
-          <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-            <a class="nav-link active" id="v-pills-debug-tab" data-toggle="pill" href="#v-pills-debug" role="tab" aria-controls="v-pills-debug" aria-selected="true">DeBug</a>
-            <a class="nav-link" id="v-pills-buggy-tab" data-toggle="pill" href="#v-pills-buggy" role="tab" aria-controls="v-pills-buggy" aria-selected="false">Buggy</a>
-            <a class="nav-link" id="v-pills-cabug-tab" data-toggle="pill" href="#v-pills-cabug" role="tab" aria-controls="v-pills-cabug" aria-selected="false">CaBug</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-10">
-        <div class="tab-content" id="v-pills-tabContent">
-          <div class="tab-pane fade show active" id="v-pills-debug" role="tabpanel" aria-labelledby="v-pills-debug-tab">
-            <div class="row">
-              <div class="col-md-5 offset-md-1">
-                <img class="card-img-top1" src="https://i.imgur.com/oTkvtiK.jpg" alt="beignet de grillon">
+          <div class="space-30"></div>
+          <div>
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Nos Accompagnements</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Nos Sauces</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Nos Boissons</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <h2 class="Plats">Nos Accompagnements</h2>
+                <p class="plat">❍ Frites maison</p>
+                <p class="plat">❍ Assortiment de légumes</p>
+                <p class="plat">❍ Riz</p>
+                <p class="plat">❍ Salade</p>
               </div>
-              <div class="col-md-4 offset-md-2">
-                <h3 class="Nomderesto">Bienvenue au DeBug</h4>
+              <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <h2 class="Plats">Nos Sauces</h2>
+                <p class="plat">❍ Satay</p>
+                <p class="plat">❍ Curry</p>
+                <p class="plat">❍ Poivre</p>
+                <p class="plat">❍ Miel soja</p>
+              </div>
+              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <h2 class="Plats">Nos Boissons</h2>
+                <p class="plat">❍ Soft 1.50€</p>
+                <p class="plat">❍ Vin 22€</p>
+                <p class="plat">❍ Bières 5.50€</p>
+                <p class="plat">❍ Cocktail Maison 8€</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-5 offset-1">
+          <div class="img">
+            <img src="https://i.imgur.com/wh8YsTg.jpg" alt="food" class="img-fluid">
+          </div>
+          <div class="space-50"></div>
+          <div class="img1">
+            <img src="https://i.imgur.com/apZvJxF.jpg" alt="food" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="space-30"></div>
+      <div class="space-50"></div>
+      <div class="text-center">
+        <h1 class="title-1">Nos Spécialités</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <div class="navListVertical">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <a class="nav-link active" id="v-pills-debug-tab" data-toggle="pill" href="#v-pills-debug" role="tab" aria-controls="v-pills-debug" aria-selected="true">DeBug</a>
+              <a class="nav-link" id="v-pills-buggy-tab" data-toggle="pill" href="#v-pills-buggy" role="tab" aria-controls="v-pills-buggy" aria-selected="false">Buggy</a>
+              <a class="nav-link" id="v-pills-cabug-tab" data-toggle="pill" href="#v-pills-cabug" role="tab" aria-controls="v-pills-cabug" aria-selected="false">CaBug</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-10">
+          <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-debug" role="tabpanel" aria-labelledby="v-pills-debug-tab">
+              <div class="row">
+                <div class="col-md-5 offset-md-1">
+                  <img class="card-img-top1" src="https://i.imgur.com/oTkvtiK.jpg" alt="beignet de grillon">
+                </div>
+                <div class="col-md-4 offset-md-2">
+                  <h3 class="Nomderesto">Bienvenue au DeBug</h4>
                 <p class="spécialité">Au DeBug, notre chef Romain vous préparera sa spécialité: Les beignets aux Grillons accompagné de frites maison et sa sauce satay!</p>
               </div>
             </div>
@@ -246,30 +209,72 @@
               </div>
               <div class="col-md-4 offset-md-2">
                 <h3 class="Nomderesto">Au Buggy</h3>
-                <p class="spécialité">Ici au Buggy, le chef David vous accueille avec sa spécialité: Grillons à la thaïlandaise avec des feuilles de combara et citronnelle!</p>
+                  <p class="spécialité">Ici au Buggy, le chef David vous accueille avec sa spécialité: Grillons à la thaïlandaise avec des feuilles de combara et citronnelle!</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="tab-pane fade" id="v-pills-cabug" role="tabpanel" aria-labelledby="v-pills-cabug-tab">
-            <div class="row">
-              <div class="col-md-5 offset-md-1">
-                <img class="card-img-top3" src="https://i.imgur.com/HuSSKbl.jpg" alt="tacos d'asticot" width="300px">
-              </div>
-              <div class="col-md-4 offset-md-2">
-                <h3 class="Nomderesto">Chez CaBug</h3>
-                <p class="spécialité">Dans notre restaurant CaBug, notre chef Alexandre vous subtentera avec sa spécialité: Les tacos aux cigales aux paprika!</p>
+            <div class="tab-pane fade" id="v-pills-cabug" role="tabpanel" aria-labelledby="v-pills-cabug-tab">
+              <div class="row">
+                <div class="col-md-5 offset-md-1">
+                  <img class="card-img-top3" src="https://i.imgur.com/HuSSKbl.jpg" alt="tacos d'asticot" width="300px">
+                </div>
+                <div class="col-md-4 offset-md-2">
+                  <h3 class="Nomderesto">Chez CaBug</h3>
+                  <p class="spécialité">Dans notre restaurant CaBug, notre chef Alexandre vous subtentera avec sa spécialité: Les tacos aux cigales aux paprika!</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="space-50"></div>
-  <h2 class="Bio">
+    <div class="space-50"></div>
+    <h2 class="Bio">
     Ici tout est bio et fait maison. Votre voyage culinaire vous attends!
   </h2>
-</section>
+  </section>
+  <div class="container-fluid content">
+    <div class="row">
+      <div class="col-md-11 testi" id="Concept">
+        <div class="testimonials">
+          <div class="carousel-info">
+            <img alt="" src="https://i.imgur.com/0Xw1zbA.jpg" class="pull-left">
+            <div class="pull-left">
+              <span class="testimonials-name">Johnny l'asticot</span>
+              <span class="testimonials-post">Père fondateur / Cuistot en chef</span>
+            </div>
+          </div>
+          <div class="active item">
+            <blockquote>
+              <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+              </p>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid content">
+    <div class="row">
+      <div class="col-md-11 testi">
+        <div class="testimonials">
+          <div class="carousel-info">
+            <img alt="" src="https://i.imgur.com/V1uNqt9.jpg" class="pull-right">
+            <div class="pull-left">
+              <span class="testimonials-name">Jiminy Cricket</span>
+              <span class="testimonials-post">Père fondateur / Responsable commercial</span>
+            </div>
+          </div>
+          <div class="active item">
+            <blockquote>
+              <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+              </p>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <section class="contactSection">
     <h1 class="contactTitle" id="ContactNous">Contactez Bugcookers</h1>
@@ -448,14 +453,14 @@
         </div>
 
         <div class="col-md-4">
-        <a href="https://imgur.com/TbOPylq"><img src="https://i.imgur.com/TbOPylq.jpg" title="source: imgur.com" alt="Wild_code" style=width:350px;height:180px; /></a>
+          <a href="https://imgur.com/TbOPylq"><img src="https://i.imgur.com/TbOPylq.jpg" title="source: imgur.com" alt="Wild_code" style=width:350px;height:180px; /></a>
         </div>
 
       </div>
       <div class="row">
 
         <div class="col-md-4">
-        <a href="https://imgur.com/LqOOQAu"><img src="https://i.imgur.com/LqOOQAu.jpg" title="source: imgur.com" alt="logo-ferme-insecte" style=width:300px;height:180px;/></a>
+          <a href="https://imgur.com/LqOOQAu"><img src="https://i.imgur.com/LqOOQAu.jpg" title="source: imgur.com" alt="logo-ferme-insecte" style=width:300px;height:180px;/></a>
         </div>
 
         <div class="col-md-4">

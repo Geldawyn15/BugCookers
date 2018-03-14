@@ -45,7 +45,7 @@ body{
 }
 .testi{
   margin: auto;
-  background-color: rgba( 64, 236, 50, 0.5);
+  background-color: rgba( 153,153,153, 0.8);
 }
 
 .carousel-info {
@@ -57,9 +57,9 @@ blockquote p {
 }
 
 .testimonials blockquote {
-    background: rgba( 183, 200, 182 , 0.9);
+    background: rgba(0,0,0, 0.9);
     border: medium none;
-    color: black;
+    color: white;
     display: block;
     font-size: 26px;
     line-height: 30px;
@@ -72,9 +72,10 @@ blockquote p {
 .testimonials .carousel-info img {
     border: 1px solid black;
     border-radius: 150px !important;
-    height: 90px;
+    height: 130px;
     padding: 3px;
-    width: 90px;
+    width: 130px;
+    margin-top: 15px;
 }
 
 .testimonials .carousel-info img {
@@ -86,13 +87,13 @@ blockquote p {
 }
 .testimonials span.testimonials-name {
     color: #e6400c;
-    font-size: 16px;
+    font-size: 30px;
     font-weight: 300;
     margin: 23px 0 7px;
 }
 .testimonials span.testimonials-post {
     color: black;
-    font-size: 12px;
+    font-size: 18px;
 }
 .toto{
   background-color: red;
@@ -100,7 +101,7 @@ blockquote p {
 /* css Martin */
 
 .NotreMenu {
-  background-color: black;
+  background-color: rgba(0,0,0, 0.8);
 }
 
 .Carte {
