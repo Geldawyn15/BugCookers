@@ -57,8 +57,8 @@ body {
 }
 
 .testi {
-  margin: auto;
-  background-color: rgba( 153, 153, 153, 0.8);
+  border-radius: 15px 50px 30px;
+  background: rgba(153,153,153, 0.8);
   margin-bottom: 100px;
 }
 
@@ -119,13 +119,13 @@ blockquote p {
 /* css Martin */
 
 .NotreMenu {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(153,153,153, 0.8);
 }
 
 .carte {
   text-align: center;
   font-family: 'Great Vibes', cursive;
-  color: white;
+  color: black;
   line-height: 3;
   margin-bottom: 80px;
   font-size: 100px;
@@ -133,20 +133,20 @@ blockquote p {
 }
 
 .Plats {
-  color: white;
+  color: black;
   font-size: 30px;
   line-height: 3;
   font-family: 'Dancing Script', cursive;
 }
 
 .plat {
-  color: white;
+  color: black;
   font-size: 20px;
   font-family: 'Dancing Script', cursive;
 }
 
 .space-30 {
-  border-bottom: solid white 2px;
+  border-bottom: solid black 2px;
   margin-bottom: 30px;
   margin-top: 30px;
 }
@@ -175,7 +175,7 @@ blockquote p {
 .title-1 {
   text-align: center;
   font-size: 50px;
-  color: white;
+  color: black;
   line-height: 1.5;
   margin-bottom: 150px;
   font-family: 'Dancing Script', cursive;
@@ -211,7 +211,7 @@ blockquote p {
 }
 
 .Nomderesto {
-  color: white;
+  color: black;
   text-align: center;
   margin-bottom: 50px;
   margin-top: 30px;
@@ -220,14 +220,14 @@ blockquote p {
 }
 
 .spécialité {
-  color: white;
+  color: black;
   text-align: center;
   font-family: 'Dancing Script', cursive;
   font-size: 25px;
 }
 
 .Bio {
-  color: white;
+  color: black;
   text-align: center;
   font-family: 'Dancing Script', cursive;
   line-height: 1.5;
