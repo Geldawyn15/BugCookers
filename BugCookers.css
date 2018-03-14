@@ -337,140 +337,97 @@ footer {
 }
 
 /*commentaires David */
+/* Carroussel */
 
-.bordureNoir {
-  border: 1px solid White;
-  background-color: Black;
-  min-height: 10vmin;
-  max-width: 90px;
+.sloganCaroussel {
+  font-size: 50px;
+  font-family: 'Lato', serif;
+  color:black;
+  font-style: italic;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
-.bordureOrange {
-  border: 1px solid White;
-  background-color: Orange;
-  min-height: 10vmin;
-  max-width: 90px;
+.titreCaroussel {
+  font-size: 100px;
+  font-family: 'Ultra', serif;
 }
 
-.bordureGris {
-  border: 1px solid black;
-  background-color: Grey;
-  ;
+
+.Cooker {
+  color:red;
 }
 
-.bordureBlanche {
-  border: 1px solid White;
-  background-color: White;
-  min-height: 10vmin;
-  max-width: 90px;
-}
+/* 3 bonnes raisons */
 
-.imageFond {
-  background-image: url(http://via.placeholder.com/250x250);
-  background-repeat: no-repeat;
-  height: 500px;
-}
-
-.slogan {
-  position: relative;
-  top: 200px;
-}
-
-.image4 {
-  background-image: url(http://via.placeholder.com/250x250);
-  background-repeat: no-repeat;
-}
-
-.image2 {
-  background-image: url(http://via.placeholder.com/250x250);
-  background-repeat: no-repeat;
-  height: 250px;
-}
+.imageFondZ{
+background-image: url(https://i.imgur.com/zefytPL.jpg?1);
+transition-property: background-image;
+transition-duration: 1s;
+transition-delay: 0.4s; /* Démarre au bout de 0,4s */
+width: 300px;
+height: 300px;
+border: 0.2em solid black;
+margin:auto;
 
 }
 
-.image3 {
-  background-image: url(http://via.placeholder.com/250x250);
-  background-repeat: no-repeat;
-  height: 250px;
+.conteneur:hover .imageFondZ{
+  background-color:black ;
+  opacity:0.5;
+  width: 300px;
+  height: 300px;
 }
+
+.conteneur:hover .textecaché{
+  visibility: visible;
+}
+
+.titreArgu {
+  text-align: center;
 
 }
 
-// Class
-.center-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.argu{
+  text-align: justify;
+  margin:auto;
 }
 
-// Usage as a mixin
-.element {
-  .center-block();
-  /* Carroussel */
-  .sloganCaroussel {
-    font-size: 50px;
-    font-family: 'Lato', serif;
-    color: black;
-    font-style: italic;
-    font-weight: bold;
-    background-color: rgba(255, 255, 255, 0.5);
-  }
-  .titreCaroussel {
-    font-size: 100px;
-    font-family: 'Ultra', serif;
-  }
-  .Cooker {
-    color: red;
-  }
-  /* 3 bonnes raisons */
-  .imageFondZ {
-    background-image: url("https://i.imgur.com/zefytPL.jpg?1");
-    transition-property: background-image;
-    transition-duration: 1s;
-    transition-delay: 0.4s;
-    /* Démarre au bout de 0,4s */
-    width: 300px;
-    height: 300px;
-    border: 0.2em solid black;
-  }
-  .conteneur:hover .imageFondZ {
-    background-color: black;
-    opacity: 0.5;
-    width: 300px;
-    height: 300px;
-  }
-  .conteneur:hover .textecaché {
-    visibility: visible;
-  }
-  .titreArgu {
-    text-align: center;
-  }
-  .argu {
-    text-align: justify;
-    margin: auto;
-  }
-  .alignVertical {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .textecache {
-    color: red;
-  }
-  .imageDessus {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    vertical-align: center;
-  }
-  /* Enlever le carroussel sur les petits écrans */
-  @media all and (max-width: 768px) {
-    #carouselExampleIndicators {
-      display: none;
+.alignVertical{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.textecache {
+  color:red;
+}
+
+.imageDessus {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: center;
+}
+
+#carouselExampleIndicators {
+  margin-bottom: 50px;
+}
+
+
+/* Enlever le carroussel sur les petits écrans */
+@media all and (max-width: 768px)
+
+{
+
+    #carouselExampleIndicators
+
+    {
+
+        display: none;
+
     }
 
-    #carouselExampleIndicators {
-      margin-bottom: 50px;
-    }
+}
