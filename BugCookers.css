@@ -237,6 +237,12 @@ blockquote p {
 }
 
 /* CSS de Alexandre*/
+.contactSection {
+  background-color: rgba(153, 153, 153, 0.8);
+}
+.sectionLegal {
+  background-color: rgba(153, 153, 153, 0.8);
+}
 
 #form_name {
   width: 170px;
