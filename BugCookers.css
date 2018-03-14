@@ -158,7 +158,7 @@ blockquote p {
 }
 
 .img {
-  border: 1px solid #ddd;
+  border: 1px solid black;
   border-radius: 4px;
   padding: 5px;
   width: 450px;
@@ -166,7 +166,7 @@ blockquote p {
 }
 
 .img1 {
-  border: 1px solid #ddd;
+  border: 1px solid black;
   border-radius: 4px;
   padding: 5px;
   width: 260px;
@@ -188,7 +188,7 @@ blockquote p {
 }
 
 .card-img-top1 {
-  border: 1px solid #ddd;
+  border: 1px solid black;
   border-radius: 4px;
   padding: 5px;
   width: 300px;
@@ -196,7 +196,7 @@ blockquote p {
 }
 
 .card-img-top2 {
-  border: 1px solid #ddd;
+  border: 1px solid black;
   border-radius: 4px;
   padding: 5px;
   width: 250px;
@@ -204,7 +204,7 @@ blockquote p {
 }
 
 .card-img-top3 {
-  border: 1px solid #ddd;
+  border: 1px solid black;
   border-radius: 4px;
   padding: 5px;
   width: 320px;
