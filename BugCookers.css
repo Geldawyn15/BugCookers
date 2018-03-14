@@ -57,6 +57,7 @@ body {
 }
 
 .testi {
+  margin: auto;
   border-radius: 15px 50px 30px;
   background: rgba(153,153,153, 0.8);
   margin-bottom: 100px;
