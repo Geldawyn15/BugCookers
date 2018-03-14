@@ -419,7 +419,7 @@ footer {
   }
   /* 3 bonnes raisons */
   .imageFondZ {
-    background-image: url(https://i.imgur.com/zefytPL.jpg?1);
+    background-image: url("https://i.imgur.com/zefytPL.jpg?1");
     transition-property: background-image;
     transition-duration: 1s;
     transition-delay: 0.4s;
@@ -463,4 +463,8 @@ footer {
   @media all and (max-width: 768px) {
     #carouselExampleIndicators {
       display: none;
+    }
+
+    #carouselExampleIndicators {
+      margin-bottom: 50px;
     }
