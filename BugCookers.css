@@ -479,25 +479,9 @@ border: 0.2em solid black;
 margin:auto;
 
 }
-
-
-
-/* Début Test hover
-
-
-
-.conteneur:hover .imageFondZ{
-  background-color:black ;
-  opacity:0.5;
-  width: 300px;
-  height: 300px;
+.img-bon{
+  left: 100px;
 }
-
-.conteneur:hover .textecaché{
-  visibility: visible;
-}
-
-*/
 
 
 .titreArgu {
