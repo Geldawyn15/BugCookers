@@ -61,6 +61,7 @@ body {
   border-radius: 15px 50px 30px;
   background: rgba(153,153,153, 0.8);
   margin-bottom: 100px;
+  box-shadow: 5px 5px 1px 1px rgba(0,0,0, 0.8);
 }
 
 .carousel-info {
@@ -277,7 +278,7 @@ blockquote p {
   margin-top: 80px;
   background-color: rgba(153, 153, 153, 0.8);
   border-width: medium;
-  box-shadow:2px 2px 10px gray;
+  box-shadow: 5px 5px 1px 1px rgba(0,0,0, 0.8);
 }
 
 /* CSS de Alexandre*/
