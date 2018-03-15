@@ -420,7 +420,7 @@ margin:auto;
 }
 
 .imageFondZ{
-background-image: url(https://i.imgur.com/zefytPL.jpg?1);
+background-image: url(https://i.imgur.com/Zj23Ozk.jpg?2);
 transition-property: background-image;
 transition-duration: 1s;
 transition-delay: 0.4s; /* Démarre au bout de 0,4s */
@@ -482,6 +482,8 @@ margin:auto;
 
 #carouselExampleIndicators {
   margin-bottom: 50px;
+  margin-top: 100px;
+  
 }
 
 
@@ -515,4 +517,9 @@ body {
 font-family: 'Lato', serif;
 
 
+}
+
+
+h1, h2  {
+  font-family: 'Ultra', cursive;
 }
