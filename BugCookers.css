@@ -392,6 +392,9 @@ footer {
 .Cooker {
   color:red;
 }
+#carouselExampleIndicators {
+  height: 500%;
+}
 
 /* 3 bonnes raisons */
 .imageFondX{
