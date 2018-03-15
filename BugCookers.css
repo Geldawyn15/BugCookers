@@ -409,12 +409,12 @@ footer {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: grey;
+    background: #646262;
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #b30000;
+    background: #A8A8A8;
 }
 
 /*commentaires David */
