@@ -135,14 +135,14 @@ blockquote p {
 
 .Plats {
   color: black;
-  font-size: 30px;
+  font-size: 50px;
   line-height: 3;
   font-family: 'Dancing Script', cursive;
 }
 
 .plat {
   color: black;
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Dancing Script', cursive;
 }
 
@@ -162,7 +162,7 @@ blockquote p {
   border-radius: 4px;
   padding: 5px;
   width: 450px;
-  margin-top: 40px;
+  margin-top: 165px;
 }
 
 @media only screen and (max-width: 840px) {
@@ -177,6 +177,7 @@ blockquote p {
   padding: 5px;
   width: 260px;
   margin-left: 80px;
+  margin-top: 170px;
 }
 
 @media only screen and (max-width: 840px) {
@@ -188,7 +189,7 @@ blockquote p {
 
 .title-1 {
   text-align: center;
-  font-size: 50px;
+  font-size: 60px;
   color: black;
   line-height: 1.5;
   margin-bottom: 150px;
@@ -198,6 +199,7 @@ blockquote p {
 .navListVertical {
   line-height: 100px;
   text-align: center;
+  margin-top: 100px;
 }
 
 .card-img-top1 {
@@ -205,7 +207,13 @@ blockquote p {
   border-radius: 4px;
   padding: 5px;
   width: 300px;
-  margin-top: 60px;
+  margin-top: 150px;
+}
+
+@media only screen and (max-width: 840px) {
+  .card-img-top1 {
+    display: none;
+  }
 }
 
 .card-img-top2 {
@@ -214,6 +222,13 @@ blockquote p {
   padding: 5px;
   width: 250px;
   margin-left: 60px;
+  margin-top: 90px;
+}
+
+@media only screen and (max-width: 840px) {
+  .card-img-top2 {
+    display: none;
+  }
 }
 
 .card-img-top3 {
@@ -221,7 +236,13 @@ blockquote p {
   border-radius: 4px;
   padding: 5px;
   width: 320px;
-  margin-top: 60px;
+  margin-top: 150px;
+}
+
+@media only screen and (max-width: 840px) {
+  .card-img-top3 {
+    display: none;
+  }
 }
 
 .Nomderesto {
@@ -230,14 +251,14 @@ blockquote p {
   margin-bottom: 50px;
   margin-top: 30px;
   font-family: 'Dancing Script', cursive;
-  font-size: 35px;
+  font-size: 55px;
 }
 
 .spécialité {
   color: black;
   text-align: center;
   font-family: 'Dancing Script', cursive;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .Bio {
@@ -247,7 +268,7 @@ blockquote p {
   line-height: 1.5;
   margin-bottom: 200px;
   padding-bottom: 70px;
-  font-size: 40px;
+  font-size: 45px;
 }
 
 /* CSS de Alexandre*/
