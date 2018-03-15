@@ -12,7 +12,7 @@
   left: 20px;
   display: none;
   z-index: 200;
-  
+
 }
 
 .scroll-top i {
@@ -317,6 +317,12 @@ blockquote p {
   min-width: 280;
   max-height: 480;
   min-height: 280;
+}
+
+@media (max-width: 770px) {
+  #map {
+    height: 180px;
+  }
 }
 
 .partnerSection {
