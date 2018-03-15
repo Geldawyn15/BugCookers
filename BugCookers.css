@@ -5,14 +5,13 @@
 }
 
 .scroll-top {
-  width: 5%;
-  height: 5%;
+  width: 75px;
+  height: 75px;
   position: fixed;
   bottom: 25px;
   left: 20px;
   display: none;
   z-index: 200;
-
 }
 
 .scroll-top i {
@@ -319,12 +318,6 @@ blockquote p {
   min-height: 280;
 }
 
-@media (max-width: 770px) {
-  #map {
-    height: 180px;
-  }
-}
-
 .partnerSection {
   margin-top: 40px;
   margin-left: 15px;
@@ -498,7 +491,8 @@ margin:auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .textecache {
@@ -536,10 +530,22 @@ margin:auto;
 
 
 /* Enlever le carroussel sur les petits écrans */
-.bgGris {
 
+.Concept {
   background-color: rgba( 153, 153, 153, 0.8);
+  margin-left: 30px;
+  margin-right: 30px;
+  box-shadow: 5px 5px 1px 1px rgba(0,0,0, 0.8);
+  margin-bottom: 50px;
+}
 
+.concept {
+  background-color: rgba( 153, 153, 153, 0.8);
+  margin-left: 30px;
+  margin-right: 30px;
+  box-shadow: 5px 5px 1px 1px rgba(0,0,0, 0.8);
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 /* Définition des polices */
