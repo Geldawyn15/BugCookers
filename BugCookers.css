@@ -272,9 +272,7 @@ blockquote p {
 }
 
 /* CSS de Alexandre*/
-.contactSection {
-  background-color: rgba(153, 153, 153, 0.8);
-}
+
 .sectionLegal {
   background-color: rgba(153, 153, 153, 0.8);
 }
@@ -305,20 +303,20 @@ blockquote p {
 }
 
 .partnerSection {
+  margin-top: 40px;
   width: 100%;
+  background-color: rgba(153, 153, 153, 0.8);
 }
 
 .containerSmall2 {
   width: 500px;
-  height: 500px;
+  height: 450px;
 }
 
 .contactTitle {
-  position: relative;
-  bottom: 70px;
   font-size: 50px;
+  text-align: center;
 }
-
 .partnersTitle {
   text-align: center;
   font-size: 50px;
@@ -331,6 +329,8 @@ footer {
 
 .contactSection {
   margin-top: 100px;
+  background-color: rgba(153, 153, 153, 0.8);
+  background-size: auto;
 }
 
 .input-icon-wrap {
