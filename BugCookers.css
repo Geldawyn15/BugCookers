@@ -342,10 +342,12 @@ blockquote p {
 .contactTitle {
   font-size: 50px;
   text-align: center;
+  padding-top: 50px;
 }
 .partnersTitle {
   text-align: center;
   font-size: 50px;
+  padding-bottom: 50px;
 }
 
 footer {
@@ -522,7 +524,7 @@ margin:auto;
 
 
 /* Enlever le carroussel sur les petits écrans */
-@media all and (max-width: 768px)
+@media all and (max-device-width: 480px)
 
 {
 
