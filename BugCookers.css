@@ -536,6 +536,14 @@ margin:auto;
 
     }
 
+    #Concept
+
+    {
+
+        margin-top: 60px;
+
+    }
+
 }
 
 
@@ -576,4 +584,9 @@ h1, h2  {
 {
   padding : 30px;
 
+}
+
+.centerh1
+{
+  padding left: 10px;
 }
